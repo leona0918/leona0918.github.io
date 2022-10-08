@@ -1,6 +1,6 @@
 ---
-title: "Efficient-Terminal"
-date: 2022-07-31
+title: "Efficient Terminal"
+date: 2022-07-31 +0800
 categories: [OS, Ubuntu]
 tags: [environment setup]
 ---
