@@ -1,6 +1,6 @@
 ---
 title: "Trivial, standard-layout, POD"
-date: 2023-02-012 +0800
+date: 2023-02-12 +0800
 categories: [C++]
 tags: [c++11]
 ---
