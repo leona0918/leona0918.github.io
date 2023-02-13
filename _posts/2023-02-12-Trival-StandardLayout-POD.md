@@ -31,7 +31,7 @@ Trivial types have a trivial default constructor, trivial copy constructor, triv
 
 The following examples show trivial types. In Trivial2, the presence of the Trivial2(int a, int b) constructor requires that you provide a default constructor. For the type to qualify as trivial, you must explicitly default that constructor.
 
-```
+```cpp
 struct Trivial
 {
    int i;
@@ -69,7 +69,7 @@ When a class or struct does not contain certain C++ language features such as vi
     - has no base classes with non-static data members
 
 The following code shows one example of a standard-layout type:
-```
+```cpp
 struct SL
 {
    // All members have same access:
@@ -81,7 +81,7 @@ struct SL
 
 The last two requirements can perhaps be better illustrated with code. In the next example, even though Base is standard-layout, Derived is not standard layout because both it (the most derived class) and Base have non-static data members:
 
-```
+```cpp
 struct Base
 {
    int i;
@@ -97,7 +97,7 @@ struct Derived : public Base
 ```
 In this example Derived is standard-layout because Base has no non-static data members:
 
-```
+```cpp
 struct Base
 {
    void Foo() {}
@@ -119,7 +119,7 @@ When a class or struct is both trivial and standard-layout, it is a POD (Plain O
 ## Example
 The following example shows the distinctions between trivial, standard-layout, and POD types:
 
-```
+```cpp
 #include <type_traits>
 #include <iostream>
 

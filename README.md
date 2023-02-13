@@ -11,3 +11,6 @@ Site generator : [Jekyll](https://jekyllrb.com/)
 ```bash
 bundle exec jekyll s
 ```
+
+### If encounter deploy failed on github
+If need to [update theme](https://chirpy.cotes.page/posts/getting-started/#upgrading),edit `Gemfile`, and remove `Gemfile.lock`. And re run above command to generate new `Gemfile.lock`.
