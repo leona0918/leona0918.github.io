@@ -1,0 +1,20 @@
+---
+title: "Inter Process Communication"
+date: 2023-11-23 +0800
+categories: [Linux]
+tags: [Basic Concept]
+---
+## What is IPC in Linux
+Callback is a callable function we could pass to other API (function or class ). When we call the API function, then API would "callback" the function we passed to it at some point.
+>This is just  info
+{: .prompt-info}
+
+>This tips
+{: .prompt-tip }
+
+>This waring message
+{: .prompt-warning}
+
+## Reference
+https://www.scaler.com/topics/ipc-in-linux/
+
